@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
                     // Ambil nama breed
                     val breedName = if (!firstImageData?.breeds.isNullOrEmpty()) {
-                        firstImageData?.breeds?.firstOrNull()?.name ?: "Unknown"
+                        firstImageData.breeds.firstOrNull()?.name ?: "Unknown"
                     } else {
                         "Unknown"
                     }
